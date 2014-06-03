@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>help.ico</file>
+        <file>support</file>
+        <file>determinant.jpg</file>
+        <file>inversion.jpg</file>
+        <file>multiplication.jpg</file>
+        <file>transposition.jpg</file>
+        <file>matrix.ico</file>
+        <file>addition.jpg</file>
+    </qresource>
+</RCC>
