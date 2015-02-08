@@ -139,7 +139,6 @@ ResultMatrix * Equation::inverse(Matrix *first, Matrix *second)
 {
     ResultMatrix * C = new ResultMatrix;
 
-/*******************************************************************************************/
     //pomocniczy obiekt, na którym będziemy pracować, aby nie stracić tablicy w obiekcie first
     Matrix * temp = new Matrix(&first->x, &first->y);
 
@@ -154,7 +153,6 @@ ResultMatrix * Equation::inverse(Matrix *first, Matrix *second)
             temp->table[i][j] = first->table[i][j];
         }
     }
-/*******************************************************************************************/
 
     if(first->x == first->y)
     {
@@ -228,8 +226,6 @@ ResultMatrix * Equation::inverse(Matrix *first, Matrix *second)
     return C;
 }
 
-
-/*******************************************************************************************************************/
 /*funkcja odpowiedzialna za wygenerowanie tabeli składowej elementu C
  * @param C obiekt macierzy, ktorej tablicę będzimey generować
 */
